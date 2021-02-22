@@ -7,26 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F96B69BF25E1F38500843684 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B69BE25E1F38500843684 /* ShareViewController.swift */; };
+		F96B69C225E1F38500843684 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96B69C025E1F38500843684 /* MainInterface.storyboard */; };
+		F96B69C625E1F38500843684 /* LinkShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F96B69BC25E1F38500843684 /* LinkShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F96B69CF25E2B99500843684 /* LinkTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B69CE25E2B99500843684 /* LinkTabView.swift */; };
+		F96B69D025E2B99500843684 /* LinkTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96B69CE25E2B99500843684 /* LinkTabView.swift */; };
+		F9C3545425E2E7270077439B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C3545325E2E7270077439B /* FavoriteButton.swift */; };
 		F9D0766E25E0079300C77B10 /* LinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0765B25E0079100C77B10 /* LinkApp.swift */; };
 		F9D0766F25E0079300C77B10 /* LinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0765B25E0079100C77B10 /* LinkApp.swift */; };
-		F9D0767025E0079300C77B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0765C25E0079100C77B10 /* ContentView.swift */; };
-		F9D0767125E0079300C77B10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0765C25E0079100C77B10 /* ContentView.swift */; };
+		F9D0767025E0079300C77B10 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0765C25E0079100C77B10 /* ListsView.swift */; };
+		F9D0767125E0079300C77B10 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D0765C25E0079100C77B10 /* ListsView.swift */; };
 		F9D0767225E0079300C77B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D0765D25E0079300C77B10 /* Assets.xcassets */; };
 		F9D0767325E0079300C77B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D0765D25E0079300C77B10 /* Assets.xcassets */; };
+		F9DA950C25E03EA600397CD3 /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA950B25E03EA600397CD3 /* LinksView.swift */; };
+		F9DA951025E0434D00397CD3 /* ListStore+TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA950F25E0434D00397CD3 /* ListStore+TestData.swift */; };
+		F9DA951625E0464B00397CD3 /* AddLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA951525E0464B00397CD3 /* AddLinkView.swift */; };
+		F9DA952125E049F100397CD3 /* LinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA952025E049F100397CD3 /* LinkService.swift */; };
+		F9DA952C25E08EF600397CD3 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA952B25E08EF600397CD3 /* String+Ext.swift */; };
+		F9DA954325E1BFB500397CD3 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA954225E1BFB500397CD3 /* ListCell.swift */; };
+		F9DA954725E1C18700397CD3 /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA954625E1C18700397CD3 /* LinkCell.swift */; };
+		F9DA954D25E1E33000397CD3 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DA954225E1BFB500397CD3 /* ListCell.swift */; };
+		F9DA955025E1E33E00397CD3 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4779125E033A60081BB15 /* AddListView.swift */; };
+		F9E4777425E02A8A0081BB15 /* ListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4777325E02A8A0081BB15 /* ListStore.swift */; };
+		F9E4777925E02AA20081BB15 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4777825E02AA20081BB15 /* LinkList.swift */; };
+		F9E4777F25E02AE10081BB15 /* LinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4777E25E02AE10081BB15 /* LinkItem.swift */; };
+		F9E4779225E033A60081BB15 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4779125E033A60081BB15 /* AddListView.swift */; };
+		F9E4CA2B25E2BCA30021065A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4CA2A25E2BCA30021065A /* HomeView.swift */; };
+		F9E4CA3025E2BE280021065A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4CA2F25E2BE280021065A /* SettingsView.swift */; };
+		F9E4CA3525E2BE340021065A /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4CA3425E2BE340021065A /* SettingsStore.swift */; };
+		F9E4CA3B25E2CF470021065A /* EmptyHomeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E4CA3A25E2CF470021065A /* EmptyHomeItemView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F96B69C425E1F38500843684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9D0765625E0079100C77B10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96B69BB25E1F38500843684;
+			remoteInfo = LinkShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F96B69CA25E1F38500843684 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F96B69C625E1F38500843684 /* LinkShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F96B69BC25E1F38500843684 /* LinkShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LinkShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96B69BE25E1F38500843684 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		F96B69C125E1F38500843684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F96B69C325E1F38500843684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96B69CE25E2B99500843684 /* LinkTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkTabView.swift; sourceTree = "<group>"; };
+		F9C3545325E2E7270077439B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		F9D0765B25E0079100C77B10 /* LinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkApp.swift; sourceTree = "<group>"; };
-		F9D0765C25E0079100C77B10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9D0765C25E0079100C77B10 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
 		F9D0765D25E0079300C77B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9D0766225E0079300C77B10 /* Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Link.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D0766525E0079300C77B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9D0766A25E0079300C77B10 /* Link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Link.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D0766C25E0079300C77B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9D0766D25E0079300C77B10 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F9DA950B25E03EA600397CD3 /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		F9DA950F25E0434D00397CD3 /* ListStore+TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListStore+TestData.swift"; sourceTree = "<group>"; };
+		F9DA951525E0464B00397CD3 /* AddLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLinkView.swift; sourceTree = "<group>"; };
+		F9DA952025E049F100397CD3 /* LinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkService.swift; sourceTree = "<group>"; };
+		F9DA952B25E08EF600397CD3 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		F9DA954225E1BFB500397CD3 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		F9DA954625E1C18700397CD3 /* LinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCell.swift; sourceTree = "<group>"; };
+		F9E4777325E02A8A0081BB15 /* ListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStore.swift; sourceTree = "<group>"; };
+		F9E4777825E02AA20081BB15 /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		F9E4777E25E02AE10081BB15 /* LinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkItem.swift; sourceTree = "<group>"; };
+		F9E4779125E033A60081BB15 /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
+		F9E4CA2A25E2BCA30021065A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F9E4CA2F25E2BE280021065A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F9E4CA3425E2BE340021065A /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		F9E4CA3A25E2CF470021065A /* EmptyHomeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyHomeItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F96B69B925E1F38500843684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9D0765F25E0079300C77B10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,12 +119,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F96B69B525E1EAF900843684 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9C3545325E2E7270077439B /* FavoriteButton.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		F96B69BD25E1F38500843684 /* LinkShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F96B69BE25E1F38500843684 /* ShareViewController.swift */,
+				F96B69C025E1F38500843684 /* MainInterface.storyboard */,
+				F96B69C325E1F38500843684 /* Info.plist */,
+			);
+			path = LinkShareExtension;
+			sourceTree = "<group>";
+		};
 		F9D0765525E0079100C77B10 = {
 			isa = PBXGroup;
 			children = (
 				F9D0765A25E0079100C77B10 /* Shared */,
 				F9D0766425E0079300C77B10 /* iOS */,
 				F9D0766B25E0079300C77B10 /* macOS */,
+				F96B69BD25E1F38500843684 /* LinkShareExtension */,
 				F9D0766325E0079300C77B10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,8 +151,13 @@
 		F9D0765A25E0079100C77B10 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F9DA951F25E049CB00397CD3 /* Services */,
+				F9E4778E25E033890081BB15 /* View */,
+				F9E4777725E02A980081BB15 /* Model */,
+				F9E4777025E027CA0081BB15 /* Store */,
+				F9DA952A25E08ED800397CD3 /* Resources */,
 				F9D0765B25E0079100C77B10 /* LinkApp.swift */,
-				F9D0765C25E0079100C77B10 /* ContentView.swift */,
+				F96B69CE25E2B99500843684 /* LinkTabView.swift */,
 				F9D0765D25E0079300C77B10 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -69,6 +168,7 @@
 			children = (
 				F9D0766225E0079300C77B10 /* Link.app */,
 				F9D0766A25E0079300C77B10 /* Link.app */,
+				F96B69BC25E1F38500843684 /* LinkShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +190,102 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		F9DA951F25E049CB00397CD3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F9DA952025E049F100397CD3 /* LinkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9DA952A25E08ED800397CD3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9DA952B25E08EF600397CD3 /* String+Ext.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F9DA954A25E1E32300397CD3 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				F9D0765C25E0079100C77B10 /* ListsView.swift */,
+				F9DA954225E1BFB500397CD3 /* ListCell.swift */,
+				F9E4779125E033A60081BB15 /* AddListView.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		F9DA955725E1E35A00397CD3 /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				F9DA950B25E03EA600397CD3 /* LinksView.swift */,
+				F9DA951525E0464B00397CD3 /* AddLinkView.swift */,
+				F9DA954625E1C18700397CD3 /* LinkCell.swift */,
+			);
+			path = Links;
+			sourceTree = "<group>";
+		};
+		F9E4777025E027CA0081BB15 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4777325E02A8A0081BB15 /* ListStore.swift */,
+				F9DA950F25E0434D00397CD3 /* ListStore+TestData.swift */,
+				F9E4CA3425E2BE340021065A /* SettingsStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		F9E4777725E02A980081BB15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4777825E02AA20081BB15 /* LinkList.swift */,
+				F9E4777E25E02AE10081BB15 /* LinkItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9E4778E25E033890081BB15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F9DA954A25E1E32300397CD3 /* Lists */,
+				F9DA955725E1E35A00397CD3 /* Links */,
+				F96B69B525E1EAF900843684 /* Reusable Views */,
+				F9E4CA3925E2CF370021065A /* Home */,
+				F9E4CA2F25E2BE280021065A /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F9E4CA3925E2CF370021065A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F9E4CA2A25E2BCA30021065A /* HomeView.swift */,
+				F9E4CA3A25E2CF470021065A /* EmptyHomeItemView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F96B69BB25E1F38500843684 /* LinkShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96B69C725E1F38500843684 /* Build configuration list for PBXNativeTarget "LinkShareExtension" */;
+			buildPhases = (
+				F96B69B825E1F38500843684 /* Sources */,
+				F96B69B925E1F38500843684 /* Frameworks */,
+				F96B69BA25E1F38500843684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkShareExtension;
+			productName = LinkShareExtension;
+			productReference = F96B69BC25E1F38500843684 /* LinkShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		F9D0766125E0079300C77B10 /* Link (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9D0767625E0079300C77B10 /* Build configuration list for PBXNativeTarget "Link (iOS)" */;
@@ -100,12 +293,16 @@
 				F9D0765E25E0079300C77B10 /* Sources */,
 				F9D0765F25E0079300C77B10 /* Frameworks */,
 				F9D0766025E0079300C77B10 /* Resources */,
+				F96B69CA25E1F38500843684 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F96B69C525E1F38500843684 /* PBXTargetDependency */,
 			);
 			name = "Link (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "Link (iOS)";
 			productReference = F9D0766225E0079300C77B10 /* Link.app */;
 			productType = "com.apple.product-type.application";
@@ -136,6 +333,9 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					F96B69BB25E1F38500843684 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					F9D0766125E0079300C77B10 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -153,17 +353,28 @@
 				Base,
 			);
 			mainGroup = F9D0765525E0079100C77B10;
+			packageReferences = (
+			);
 			productRefGroup = F9D0766325E0079300C77B10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F9D0766125E0079300C77B10 /* Link (iOS) */,
 				F9D0766925E0079300C77B10 /* Link (macOS) */,
+				F96B69BB25E1F38500843684 /* LinkShareExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F96B69BA25E1F38500843684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96B69C225E1F38500843684 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9D0766025E0079300C77B10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,12 +394,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F96B69B825E1F38500843684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96B69BF25E1F38500843684 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9D0765E25E0079300C77B10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D0767025E0079300C77B10 /* ContentView.swift in Sources */,
+				F9D0767025E0079300C77B10 /* ListsView.swift in Sources */,
+				F9C3545425E2E7270077439B /* FavoriteButton.swift in Sources */,
+				F9DA951625E0464B00397CD3 /* AddLinkView.swift in Sources */,
+				F9DA951025E0434D00397CD3 /* ListStore+TestData.swift in Sources */,
+				F9E4CA2B25E2BCA30021065A /* HomeView.swift in Sources */,
+				F9E4777925E02AA20081BB15 /* LinkList.swift in Sources */,
+				F9E4779225E033A60081BB15 /* AddListView.swift in Sources */,
+				F9DA954725E1C18700397CD3 /* LinkCell.swift in Sources */,
+				F9DA954325E1BFB500397CD3 /* ListCell.swift in Sources */,
+				F9E4CA3525E2BE340021065A /* SettingsStore.swift in Sources */,
 				F9D0766E25E0079300C77B10 /* LinkApp.swift in Sources */,
+				F9E4CA3B25E2CF470021065A /* EmptyHomeItemView.swift in Sources */,
+				F9E4CA3025E2BE280021065A /* SettingsView.swift in Sources */,
+				F9DA952C25E08EF600397CD3 /* String+Ext.swift in Sources */,
+				F9DA950C25E03EA600397CD3 /* LinksView.swift in Sources */,
+				F9DA952125E049F100397CD3 /* LinkService.swift in Sources */,
+				F9E4777425E02A8A0081BB15 /* ListStore.swift in Sources */,
+				F96B69CF25E2B99500843684 /* LinkTabView.swift in Sources */,
+				F9E4777F25E02AE10081BB15 /* LinkItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,14 +432,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D0767125E0079300C77B10 /* ContentView.swift in Sources */,
+				F96B69D025E2B99500843684 /* LinkTabView.swift in Sources */,
+				F9DA955025E1E33E00397CD3 /* AddListView.swift in Sources */,
+				F9DA954D25E1E33000397CD3 /* ListCell.swift in Sources */,
+				F9D0767125E0079300C77B10 /* ListsView.swift in Sources */,
 				F9D0766F25E0079300C77B10 /* LinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F96B69C525E1F38500843684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F96B69BB25E1F38500843684 /* LinkShareExtension */;
+			targetProxy = F96B69C425E1F38500843684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F96B69C025E1F38500843684 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96B69C125E1F38500843684 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		F96B69C825E1F38500843684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLTXC65BWL;
+				INFOPLIST_FILE = LinkShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakestrickler.Link.LinkShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F96B69C925E1F38500843684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DLTXC65BWL;
+				INFOPLIST_FILE = LinkShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakestrickler.Link.LinkShareExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F9D0767425E0079300C77B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +619,7 @@
 		F9D0767725E0079300C77B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,6 +642,7 @@
 		F9D0767825E0079300C77B10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -411,6 +714,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F96B69C725E1F38500843684 /* Build configuration list for PBXNativeTarget "LinkShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96B69C825E1F38500843684 /* Debug */,
+				F96B69C925E1F38500843684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F9D0765925E0079100C77B10 /* Build configuration list for PBXProject "Link" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

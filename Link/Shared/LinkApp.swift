@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct LinkApp: App {
+
+    @StateObject var listStore = ListStore()
+    @StateObject var settingsStore = SettingsStore()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LinkTabView()
+                .environmentObject(listStore)
+                .environmentObject(settingsStore)
         }
     }
 }
